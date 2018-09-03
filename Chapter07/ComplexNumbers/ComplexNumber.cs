@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +24,7 @@ namespace ComplexNumbers
             Im = 0;
         }
 
-        // Factory method.
+        // Polar factory method.
         public static ComplexNumber FromPolar(double magnitude, double angle)
         {
             return new ComplexNumber(
@@ -117,7 +117,7 @@ namespace ComplexNumbers
             return Re.GetHashCode() ^ (Re + Im).GetHashCode();
         }
 
-        // Return the number's . (Also called its modulus or norm.)
+        // Return the number's magnitude. (Also called its modulus or norm.)
         public double Magnitude
         {
             get { return Math.Sqrt(Re * Re + Im * Im); }
