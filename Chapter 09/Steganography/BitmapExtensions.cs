@@ -65,8 +65,6 @@ namespace Steganography
         }
 
         // Hide a single bit in the image.
-        // The rgb parameter should be 0, 1, or 2 to indicate the component
-        // that should store this bit.
         // The bit parameter should be true to set the bit, false to clear it.
         private static void StegBit(Bitmap bm, bool bit, ref int x, ref int y, ref RGB component)
         {
