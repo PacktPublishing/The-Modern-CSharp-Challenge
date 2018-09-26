@@ -11,6 +11,10 @@ using System.Windows.Forms;
 using System.IO;
 using System.Security.Cryptography;
 
+// Status of Libery picture under CC license from:
+//      https://commons.wikimedia.org/wiki/File:Statue_of_liberty_01.jpg
+// Hemeji Castle picture by Rod Stephens
+
 namespace EncryptDecryptFiles
 {
     public partial class Form1 : Form
