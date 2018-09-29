@@ -94,19 +94,19 @@ namespace FibonacciNumbers
                 if (number <= 1) return number;
 
                 // Start at i = 2.
-                long fibo_i_minus_2 = 0;                        // Fibonacci(0)
-                long fibo_i_minus_1 = 1;                        // Fibonacci(1)
-                long fibo_i = fibo_i_minus_1 + fibo_i_minus_2;  // Fibonacci(2)
+                long fiboIMinus2 = 0;                   // Fibonacci(0)
+                long fiboIMinus1 = 1;                   // Fibonacci(1)
+                long fiboI = fiboIMinus1 + fiboIMinus2; // Fibonacci(2)
 
                 for (int i = 2; i < number; i++)
                 {
                     // Update the values.
-                    fibo_i_minus_2 = fibo_i_minus_1;
-                    fibo_i_minus_1 = fibo_i;
-                    fibo_i = fibo_i_minus_1 + fibo_i_minus_2;
+                    fiboIMinus2 = fiboIMinus1;
+                    fiboIMinus1 = fiboI;
+                    fiboI = fiboIMinus1 + fiboIMinus2;
                 }
 
-                return fibo_i;
+                return fiboI;
             }
         }
 
