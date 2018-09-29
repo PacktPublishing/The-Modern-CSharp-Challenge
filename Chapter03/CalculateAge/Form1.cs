@@ -32,8 +32,6 @@ namespace CalculateAge
             int years, months, days;
             CalculateElapsedYMD(birthdatePicker.Value.Date, DateTime.Today,
                 out years, out months, out days);
-CalculateElapsedYMD(new DateTime(2000,2,10), new DateTime(2010,1,7),
-    out years, out months, out days);
             yearsLabel.Text = years.ToString();
             monthsLabel.Text = months.ToString();
             daysLabel.Text = days.ToString();
