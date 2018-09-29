@@ -139,7 +139,9 @@ namespace FibonacciNumbers
             if (FibonacciCache == null)
             {
                 // Initialize the table to hold all -1 entries.
-                FibonacciCache = Enumerable.Repeat(-1L, 93).ToArray();
+                // Fibonacci(92) is the largest value that doesn't overflow.
+                const int MaxNumber = 92;
+                FibonacciCache = Enumerable.Repeat(-1L, MaxNumber + 1).ToArray();
 
                 // Initialize Fibonacci(0) and Fibonacci(1).
                 FibonacciCache[0] = 0;
