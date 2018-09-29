@@ -43,7 +43,7 @@ namespace ProperDivisors
             Refresh();
 
             watch.Restart();
-            List<long> factors2 = Method2(number);
+            List<long> factors2 = GetProperDivisors(number);
             watch.Stop();
             method2TimeTextBox.Text = watch.Elapsed.TotalSeconds.ToString("0.0000");
             method2TextBox.Text = string.Join(" ",
@@ -73,7 +73,7 @@ namespace ProperDivisors
         }
 
         // Examine values between 2 and Sqrt(number).
-        private List<long> Method2(long number)
+        private List<long> GetProperDivisors(long number)
         {
             checked
             {
