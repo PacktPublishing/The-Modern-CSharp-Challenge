@@ -217,6 +217,8 @@ namespace MonteCarloIntegration
             {
                 xMinTextBox.Text = "-3";
                 xMaxTextBox.Text = "3";
+                yMinTextBox.Text = "-1";
+                yMaxTextBox.Text = "4";
             }
         }
     }
