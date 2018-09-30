@@ -44,6 +44,8 @@
             this.time3TextBox = new System.Windows.Forms.TextBox();
             this.result3TextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // numTrialsTextBox
@@ -67,7 +69,7 @@
             // time2TextBox
             // 
             this.time2TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.time2TextBox.Location = new System.Drawing.Point(186, 156);
+            this.time2TextBox.Location = new System.Drawing.Point(186, 185);
             this.time2TextBox.Name = "time2TextBox";
             this.time2TextBox.ReadOnly = true;
             this.time2TextBox.Size = new System.Drawing.Size(86, 20);
@@ -76,7 +78,7 @@
             // time1TextBox
             // 
             this.time1TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.time1TextBox.Location = new System.Drawing.Point(186, 130);
+            this.time1TextBox.Location = new System.Drawing.Point(186, 159);
             this.time1TextBox.Name = "time1TextBox";
             this.time1TextBox.ReadOnly = true;
             this.time1TextBox.Size = new System.Drawing.Size(86, 20);
@@ -86,7 +88,7 @@
             // 
             this.result2TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.result2TextBox.Location = new System.Drawing.Point(64, 156);
+            this.result2TextBox.Location = new System.Drawing.Point(64, 185);
             this.result2TextBox.Name = "result2TextBox";
             this.result2TextBox.ReadOnly = true;
             this.result2TextBox.Size = new System.Drawing.Size(116, 20);
@@ -95,7 +97,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 159);
+            this.label4.Location = new System.Drawing.Point(12, 188);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 23;
@@ -105,7 +107,7 @@
             // 
             this.result1TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.result1TextBox.Location = new System.Drawing.Point(64, 130);
+            this.result1TextBox.Location = new System.Drawing.Point(64, 159);
             this.result1TextBox.Name = "result1TextBox";
             this.result1TextBox.ReadOnly = true;
             this.result1TextBox.Size = new System.Drawing.Size(116, 20);
@@ -114,7 +116,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 133);
+            this.label3.Location = new System.Drawing.Point(12, 162);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 20;
@@ -175,7 +177,7 @@
             // time3TextBox
             // 
             this.time3TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.time3TextBox.Location = new System.Drawing.Point(186, 182);
+            this.time3TextBox.Location = new System.Drawing.Point(186, 211);
             this.time3TextBox.Name = "time3TextBox";
             this.time3TextBox.ReadOnly = true;
             this.time3TextBox.Size = new System.Drawing.Size(86, 20);
@@ -185,7 +187,7 @@
             // 
             this.result3TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.result3TextBox.Location = new System.Drawing.Point(64, 182);
+            this.result3TextBox.Location = new System.Drawing.Point(64, 211);
             this.result3TextBox.Name = "result3TextBox";
             this.result3TextBox.ReadOnly = true;
             this.result3TextBox.Size = new System.Drawing.Size(116, 20);
@@ -194,18 +196,38 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 185);
+            this.label6.Location = new System.Drawing.Point(12, 214);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 27;
             this.label6.Text = "Result 3:";
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(64, 132);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(116, 24);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "Method";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(186, 132);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(86, 24);
+            this.label8.TabIndex = 29;
+            this.label8.Text = "Time (sec)";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AcceptButton = this.searchButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 211);
+            this.ClientSize = new System.Drawing.Size(284, 243);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.time3TextBox);
             this.Controls.Add(this.result3TextBox);
             this.Controls.Add(this.label6);
@@ -247,6 +269,8 @@
         private System.Windows.Forms.TextBox time3TextBox;
         private System.Windows.Forms.TextBox result3TextBox;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }
 
