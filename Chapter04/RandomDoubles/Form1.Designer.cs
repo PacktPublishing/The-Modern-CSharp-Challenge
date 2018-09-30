@@ -64,7 +64,6 @@
             this.minTextBox.Name = "minTextBox";
             this.minTextBox.Size = new System.Drawing.Size(46, 20);
             this.minTextBox.TabIndex = 0;
-            this.minTextBox.Text = "10.5";
             this.minTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // maxTextBox
@@ -73,7 +72,6 @@
             this.maxTextBox.Name = "maxTextBox";
             this.maxTextBox.Size = new System.Drawing.Size(46, 20);
             this.maxTextBox.TabIndex = 1;
-            this.maxTextBox.Text = "20.7";
             this.maxTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
@@ -109,6 +107,7 @@
             this.Controls.Add(this.doublesListBox);
             this.Name = "Form1";
             this.Text = "RandomDoubles";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

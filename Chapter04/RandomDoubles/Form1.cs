@@ -20,6 +20,13 @@ namespace RandomDoubles
         // The Random object used by this program.
         private Random Rand = new Random();
 
+        // Set some initial values formatted for the computer's locale.
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            minTextBox.Text = (10.5).ToString();
+            maxTextBox.Text = (20.7).ToString();
+        }
+
         // Generate some random values.
         private void goButton_Click(object sender, EventArgs e)
         {
