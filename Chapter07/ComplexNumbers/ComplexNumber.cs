@@ -109,7 +109,11 @@ namespace ComplexNumbers
         {
             return c1.Equals(c2);
         }
-       
+
+        public static bool operator !=(ComplexNumber c1, ComplexNumber c2)
+        {
+            return !(c1 == c2);
+        }
 
         // GetHashCode.
         public override int GetHashCode()
