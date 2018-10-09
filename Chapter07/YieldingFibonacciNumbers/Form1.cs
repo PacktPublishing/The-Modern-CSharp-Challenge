@@ -39,23 +39,23 @@ namespace YieldingFibonacciNumbers
             yield return 1;
 
             // Calculate other values.
-            long fibo_i_minus_2 = 0;
-            long fibo_i_minus_1 = 1;
-            long fibo_i = 0;
+            long fiboIMinus2 = 0;
+            long fiboIMinus1 = 1;
+            long fiboI = 0;
             for (;;)
             {
                 try
                 {
-                    fibo_i = checked(fibo_i_minus_2 + fibo_i_minus_1);
+                    fiboI = checked(fiboIMinus2 + fiboIMinus1);
                 }
                 catch
                 {
                     yield break;
                 }
 
-                fibo_i_minus_2 = fibo_i_minus_1;
-                fibo_i_minus_1 = fibo_i;
-                yield return fibo_i;
+                fiboIMinus2 = fiboIMinus1;
+                fiboIMinus1 = fiboI;
+                yield return fiboI;
             }
         }
     }
