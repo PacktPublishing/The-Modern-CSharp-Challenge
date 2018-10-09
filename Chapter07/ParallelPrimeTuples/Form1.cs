@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -90,7 +90,7 @@ namespace ParallelPrimeTuples
             return results;
         }
 
-        // Parameters used buy parallel method CheckForGroupsInParallel.
+        // Parameters used by parallel method CheckForGroupsInParallel.
         private const int NumValuesPerBatch = 10000;
         private object ParallelMaxLockObject = new object();
         private List<List<int>> ParallelGroups = null;
