@@ -230,22 +230,13 @@ namespace SpaceForce
             }
 
             // Accelerate.
-            if (Keyboard.IsKeyDown(Key.Up))
-            {
-                TheShip.Accelerate();
-            }
+            if (Keyboard.IsKeyDown(Key.Up)) TheShip.Accelerate();
 
             // Turn left.
-            if (Keyboard.IsKeyDown(Key.Left))
-            {
-                TheShip.TurnLeft();
-            }
+            if (Keyboard.IsKeyDown(Key.Left)) TheShip.TurnLeft();
 
             // Turn right.
-            if (Keyboard.IsKeyDown(Key.Right))
-            {
-                TheShip.TurnRight();
-            }
+            if (Keyboard.IsKeyDown(Key.Right)) TheShip.TurnRight();
         }
 
         // Pew!
