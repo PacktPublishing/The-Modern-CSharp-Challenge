@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -106,7 +106,7 @@ namespace CPRNG
             // The largest usable value.
             BigInteger maxUsable = biggest - numUnused;
 
-            // Generate random BinIntegers until we get one between 0 and maxUsable.
+            // Generate random BigIntegers until we get one between 0 and maxUsable.
             byte[] bytes = new byte[16];
             for (;;)
             {
