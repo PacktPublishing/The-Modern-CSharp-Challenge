@@ -110,7 +110,7 @@ namespace ThumbnailWebPage
             // Display the web page in the system's default browser.
             System.Diagnostics.Process.Start(webFilename);
 
-            numCreatedLabel.Text = "Created " + filenames.Count + " thumbnails";
+            numCreatedLabel.Text = $"Created {filenames.Count} thumbnails";
         }
 
         // Make a thumbnail for the file with maximum dimensions maxWidth x maxHeight.
