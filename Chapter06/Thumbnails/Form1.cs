@@ -85,7 +85,8 @@ namespace Thumbnails
                     " thumb.bmp";
                 bm.Save(thumbname);
             }
-            numCreatedLabel.Text = "Created " + filenames.Count + " thumbnails";
+            numCreatedLabel.Text =
+                $"Created {filenames.Count} thumbnails";
         }
 
         // Make a thumbnail for the file with maximum dimensions maxWidth x maxHeight.
