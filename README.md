@@ -1,6 +1,6 @@
 # The Modern C# Challenge
 
-<a href="https://www.packtpub.com/application-development/modern-c-challenge-0?utm_source=github&utm_medium=repository&utm_campaign=9781789535426 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11787.png" alt="Hands-On Algorithms for Computer Vision" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/modern-c-challenge-0?utm_source=github&utm_medium=repository&utm_campaign=9781789535426 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11787.png" alt="The Modern C# Challenge" height="256px" align="right"></a>
 
 This is the code repository for [The Modern C# Challenge](https://www.packtpub.com/application-development/modern-c-challenge-0?utm_source=github&utm_medium=repository&utm_campaign=9781789535426), published by Packt.
 
@@ -69,7 +69,7 @@ With the following software and hardware list you can run all code files present
 | 1-9     | Visual Studio 2017 Community Edition or later                           | Windows, macOS, and Linux (Any)    |
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788470414_ColorImages.pdf).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789535426_ColorImages.pdf).
 
 ### Related products
 * C# 7 and .NET Core 2.0 Blueprints [[Packt]](https://www.packtpub.com/application-development/c-7-and-net-core-20-blueprints ) [[Amazon]](https://www.amazon.com/dp/1788396197)
