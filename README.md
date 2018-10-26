@@ -44,18 +44,22 @@ Programming is best learned by doing rather than by reading, so I strongly encou
 to try to solve a problem before you look at my example solution later in the book. I've tried
 to include all of the information that you need to solve each problem in its description, so
 you should be able to take a crack at it before you look at my solution.
+
 Even if you get stuck on a problem, the beginning of the solution's description may help
 you figure out how to solve it. If you experience an Ah ha! moment while you're reading
 about the solution, stop and give it another try.
+
 Keep in mind that there are always multiple ways to solve any particular problem. Some
 solutions may be better than others, but most problems can be solved by several different
 approaches, so don't think your solution is wrong just because it's different from mine. In
 fact, yours may be better than mine.
+
 The easiest way to read this book is from front to back, tackling each problem in order. The
 chapters are arranged so the less confusing topics come first. Similarly, the problems within
 each chapter are arranged with the less demanding first. Some of the material described in
 one problem's solution may also be used in a later solution, so reading the problems and
 their solutions in order makes sense.
+
 However, the problems and their example solutions are described separately, so you can
 jump around if you like. For example, if you are particularly interested in steganography,
 you can jump straight to Chapter 9, Cryptography. The worst that will happen is that an
