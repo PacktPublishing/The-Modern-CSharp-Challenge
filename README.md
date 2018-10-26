@@ -65,15 +65,15 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1-11     | NVM                                 | Windows, macOS, and Linux (Any)    |
-| 1-11     | Serverless Framework                | Windows, macOS, and Linux (Any)    |
+| 1-9     | Visual Studio 2017 Community Edition or later                           | Windows, macOS, and Linux (Any)    |
+
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788470414_ColorImages.pdf).
 
 ### Related products
-* Cloud Native Development Patterns and Best Practices [[Packt]](https://www.packtpub.com/application-development/cloud-native-development-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781788473927 ) [[Amazon]](https://www.amazon.com/dp/1788473922)
+* C# 7 and .NET Core 2.0 Blueprints [[Packt]](https://www.packtpub.com/application-development/c-7-and-net-core-20-blueprints ) [[Amazon]](https://www.amazon.com/dp/1788396197)
 
-* Cloud Native Python [[Packt]](https://www.packtpub.com/application-development/cloud-native-python?utm_source=github&utm_medium=repository&utm_campaign=9781787129313 ) [[Amazon]](https://www.amazon.com/dp/1787129314)
+* Hands-On Microservices with C# [[Packt]](https://www.packtpub.com/application-development/hands-microservices-c) [[Amazon]](https://www.amazon.com/dp/1789533686)
 
 
 ## Get to Know the Author
@@ -87,9 +87,6 @@ developers. Some of his most recent books include:
 * Interview Puzzles Dissected: Solving and Understanding Interview Puzzles
 * Beginning Software Engineering
 * Essential Algorithms: A Practical Approach to Computer Algorithms
-
-## Other books by the authors
-[Cloud Native Development Patterns and Best Practices](https://www.packtpub.com/application-development/cloud-native-development-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781788473927 )
 
 
 ### Suggestions and Feedback
