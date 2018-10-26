@@ -1,6 +1,6 @@
 # The Modern C# Challenge
 
-<a href="https://www.packtpub.com/application-development/modern-c-challenge-0?utm_source=github&utm_medium=repository&utm_campaign=9781789535426 "> <img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11787.png" alt="The Modern C# Challenge" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/hands-algorithms-computer-vision?utm_source=github&utm_medium=repository&utm_campaign=9781789130942 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B10760.png" alt="Hands-On Algorithms for Computer Vision" height="256px" align="right"></a>
 
 This is the code repository for [The Modern C# Challenge](https://www.packtpub.com/application-development/modern-c-challenge-0?utm_source=github&utm_medium=repository&utm_campaign=9781789535426), published by Packt.
 
