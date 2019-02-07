@@ -46,7 +46,7 @@ namespace StatisticalFunctions
             arrayMinimumTextBox.Text = valuesArray.Min().ToString("0.00");
             arrayMaximumTextBox.Text = valuesArray.Max().ToString("0.00");
             arrayMeanTextBox.Text = valuesArray.Average().ToString("0.00");
-            arrayTruncatedMeanTextBox.Text = valuesArray.TruncatedMean(0.1).ToString("0.00");
+            arrayTruncatedMeanTextBox.Text = valuesArray.TruncatedMean(discardFraction).ToString("0.00");
             arrayMedianTextBox.Text = valuesArray.Median().ToString("0.00");
             arrayModeTextBox.Text = string.Join(" ",
                 valuesArray.Modes().ConvertAll(i => i.ToString()));
